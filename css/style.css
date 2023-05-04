@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    height: 1500px;
+}
+
+#hero{
+    background-image: url(../imagenes/banner.jpg);
+    background-position: center;
+    width: 100%;
+    height: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    background: rgba(241, 221, 105, 0.5);
+    border-radius: 10px;
+    padding: 14px 26px;
+    text-transform: uppercase;
+}
+
+header ul li{
+    padding: 0px 12px;
+}
+header ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+main h1{
+    color: rgb(252, 252, 252);
+    font-size: 70px;
+}
+
+.subtitulo{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    margin: 20px 0px;
+}
+footer p{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(107, 116, 95,0.5);
+    height: 70px;
+    text-decoration: none;
+    align-items: center;
+    text-transform: uppercase;
+}
+.copas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 8px 12px;
+    padding: 10px 14px;
+}
+table{
+    border: 2px dotted;
+    text-align: center;
+    text-decoration: dotted;
+    justify-content: center;
+    position: relative;
+    left: 40%;
+    top: 10%;
+    color: rgb(0, 0, 0);
+    background: rgba(23, 24, 22, 0.5);
+}
+
+.tamaño{
+    background-color: rgb(253, 217, 187);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: black;                                       
+}
+#main-inicio{
+    height: 2200px;
+    background-color: rgb(253, 217, 187);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+.historia{
+    background: rgba(20, 150, 3, 0.5);
+}
+#form-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#tamaño-jugadas{
+    height: 2200px;
+}
+.jugadas-ronal{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    padding: 40px;
+    justify-content: space-between;
+    text-align: center;
+}
+.form-acomoda{
+    display: flex;
+    height: 120px;
+    background: rgba(98, 99, 96, 0.5);
+    color: rgb(0, 0, 0);
+}
+.acomoda{
+    height: 125px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 190px;
+    background: rgba(98, 99, 96, 0.5);
+    text-align:center;
+}
+.fondo-jugadas{
+    background-color: rgb(253, 217, 187);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+span{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(177, 101, 14, 0.5);
+    border-radius: 10px;
+    padding: 14px 26px;
+    font-size: 20px; 
+}
+.form-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding: 8px;
+}
+#discord{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(177, 101, 14, 0.5);
+    border-radius: 10px;
+    padding: 14px 26px;
+    font-size: 20px;
+    position: relative;
+    bottom: -200px;
+}
+#main-contacto{
+    background-color: rgb(253, 217, 187);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+#imagenes-carrera{
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: rgb(253, 217, 187);
+    color: rgb(0, 0, 0);
+}
+.subtitulo-carrera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(241, 221, 105, 0.5);
+    font-size: 39px;
+    text-align: center;
+    color: rgb(20, 59, 4);
+    text-transform: uppercase;
+}
+#footer-carrera{
+    position: relative;
+    top: 2209px;
+}
