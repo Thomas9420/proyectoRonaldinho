@@ -5,7 +5,7 @@
 }
 
 main{
-    height: 1500px;
+    height: 1600px;
 }
 
 #hero{
@@ -19,7 +19,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #E9F9E7;
 }
 
 header {
@@ -27,7 +27,6 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -39,10 +38,12 @@ header ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    background: rgba(241, 221, 105, 0.5);
-    border-radius: 10px;
-    padding: 14px 26px;
+    background: rgb(13, 49, 6);
+    padding: 7px 26px;
     text-transform: uppercase;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 
 header ul li{
@@ -80,6 +81,7 @@ footer p{
     justify-content: space-around;
     margin: 8px 12px;
     padding: 10px 14px;
+    color: white;
 }
 table{
     border: 2px dotted;
@@ -94,7 +96,7 @@ table{
 }
 
 .tamaño{
-    background-color: rgb(253, 217, 187);
+    background-color: rgb(14, 58, 1);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -102,15 +104,21 @@ table{
 }
 #main-inicio{
     height: 2200px;
-    background-color: rgb(253, 217, 187);
+    background-color: rgb(14, 58, 1);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color: rgb(0, 0, 0);
 
 }
+h2{
+    color: white;
+}
 .historia{
-    background: rgba(20, 150, 3, 0.5);
+    background: rgb(226, 222, 0);
+}
+#table-titulos{
+    color: white;
 }
 #form-inicio{
     display: flex;
@@ -132,28 +140,28 @@ table{
     display: flex;
     height: 120px;
     background: rgba(98, 99, 96, 0.5);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .acomoda{
     height: 125px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     position: relative;
     top: 190px;
     background: rgba(98, 99, 96, 0.5);
     text-align:center;
 }
 .fondo-jugadas{
-    background-color: rgb(253, 217, 187);
+    background-color: rgb(14, 58, 1);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 span{
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: rgba(177, 101, 14, 0.5);
+    background: rgb(226, 222, 0);
     border-radius: 10px;
     padding: 14px 26px;
     font-size: 20px; 
@@ -170,7 +178,7 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(177, 101, 14, 0.5);
+    background: rgb(226, 222, 0);
     border-radius: 10px;
     padding: 14px 26px;
     font-size: 20px;
@@ -178,10 +186,11 @@ span{
     bottom: -200px;
 }
 #main-contacto{
-    background-color: rgb(253, 217, 187);
+    background-color: rgb(14, 58, 1);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    text-align: center;
     
 }
 #imagenes-carrera{
@@ -191,8 +200,8 @@ span{
     align-items: center;
     text-transform: uppercase;
     font-size: 24px;
-    background-color: rgb(253, 217, 187);
-    color: rgb(0, 0, 0);
+    background-color: rgb(14, 58, 1);
+    color: rgb(255, 255, 255);
 }
 .subtitulo-carrera{
     display: flex;
