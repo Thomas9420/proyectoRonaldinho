@@ -1,62 +1,89 @@
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="../imagenes/ronal-logo.jpg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Br in the map</title>
 </head>
-<body class="fondo-paginas">
+<body>
     <header id="header-contacto">
-        <ul>
-            <img src="../imagenes/icono-brasil.png" height="50" width="70" alt="Logo">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../paginas/carrera.html">Carrera</a></li>
-            <li><a href="../paginas/mejores-jugadas.html">Mejores jugadas</a></li>
-            <li><a href="../paginas/titulos.html">Titulos Profesionales</a></li>
-            <li><a href="../paginas/contacto.html">Contacto</a></li>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <img src="../imagenes/icono-brasil.png" height="50" width="70" alt="Logo">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./contacto.html">CONTACTO</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto"  id="subir">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./carrera.html">Carrera</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./mejores-jugadas.html">Mejores Jugadas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./titulos.html">Titulos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </ul>
+      </div>
     </header>
-    <main id="main-contacto">
+    <main id="main-bg">
         <section id="hero">
-            <div id="subir">
+            <div>
                 <h1>NUESTRA COMUNIDAD</h1>
             </div>
-            <p class="subtitulo"><strong>¿Queres unirte a esta comunidad?</strong></p>
+            <h3><strong>¿Queres unirte a esta comunidad?</strong></h3>
         </section>
-        <span><strong>Queres relacionarte con una comunidad amante del futbol y jogo bonito? dejanos tu mail aca para recibir nuevas noticias.<br>Y comenta que te parecio el articulo!</strong></span>
-        <form class="form-contacto">
-            <fieldset>
-                <legend>Email</legend>
-                <input type="email">
-                <form>
-                    <input type="submit" placeholder="Enviar">
-                </form>
-            </fieldset>
+        <p class="subscribir-contacto"><strong>Queres relacionarte con una comunidad amante del futbol y jogo bonito? dejanos tu mail aca para recibir nuevas noticias.<br>Y comenta que te parecio el articulo!</strong></p>
+        <form method="post" class="form-contacto">
+          <fieldset>
+            <legend>Email</legend>
+            <input type="email" name="email">
+            <button type="button" class="btn btn-warning">Enviar</button>
+          </fieldset>
         </form>
         <form class="form-contacto">
             <fieldset>
                 <textarea name="comentario" id="" cols="80" rows="3" placeholder="Escribi aca que te parecio!"></textarea>
-                <input type="submit" name="Enviar" value="Enviar mensaje">
-                <input type="reset" name="Resetear"value="Resetear formulario">
+                <div class="form-contacto">
+                <input type="submit" name="Enviar" value="Enviar mensaje" class="enviar-resetear">
+                <input type="reset" name="Resetear"value="Resetear formulario" class="enviar-resetear">
+              </div>
             </fieldset>
         </form>
         
-        <div id="discord">
-            <p><strong>Tambien tenemos un grupo en discord ¡Unite!</strong></p>
-        
+        <div>
+            <p class="subscribir-contacto"><strong>Tambien tenemos un grupo en discord ¡Unite!</strong></p>
+            <div id="discord">
             <a href="https://discord.gg/pus6Qx2e">
                 <img src="../imagenes/discord-icon.png" alt="discord" height="100px" width="100px"></a>
+              </div>
         </div>
     </main>
     <footer>
-          <p>
-            <strong>Gracias por ver y compartir el amor por el buen futbol.</strong>
-             <a href="#subir">Volver arriba</a>
-          </p>
-       </footer>
-  
+      <p>
+        <strong>Gracias por ver y compartir el amor por el buen futbol. <br> Hecho con amor por un amante del "jogo bonito" nacido en Brasil.</strong>
+        <span class="border border-bottom-0 border-warning">
+         <a href="#subir">Volver arriba</a>
+        </span>
+      </p>
+   </footer>
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
