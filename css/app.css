@@ -122,6 +122,14 @@ main section {
   justify-content: center;
 }
 
+p {
+  font-family: "montserrat";
+}
+
+.btn {
+  font-family: "poppins";
+}
+
 .copas-titulos {
   display: flex;
   flex-direction: row;
