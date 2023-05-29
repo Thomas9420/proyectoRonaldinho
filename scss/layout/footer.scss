@@ -1,0 +1,13 @@
+footer{
+    background-color: $color-secundario;
+    text-align: center;
+    font-family: $letra-primaria;
+    p{
+        color:$color-primario;
+        a{
+            list-style-type: none;
+            color: $color-quinario;
+            text-decoration: none;
+        }
+    }
+}

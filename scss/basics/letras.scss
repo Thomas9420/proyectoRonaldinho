@@ -1,0 +1,11 @@
+// FONT SIZE
+$font-size: (34px, 24px, 22px, 18px);
+@for $i from 1 through 4 {
+    h#{$i} {
+        font-size: nth($font-size, $i);
+    }
+}
+// FONT FAMILY
+$letra-primaria: 'roboto';
+$letra-secundaria: 'poppins';
+$letra-terciaria: 'montserrat';
