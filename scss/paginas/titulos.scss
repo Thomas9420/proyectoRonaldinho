@@ -1,0 +1,13 @@
+.copas-titulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: $letra-terciaria;
+    @include mobile {
+        flex-direction: column;
+    }
+}
+.table{
+    font-family: $letra-terciaria;
+}

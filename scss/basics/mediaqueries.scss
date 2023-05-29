@@ -1,5 +1,5 @@
-@media (max-width: 700px){
-    .copas-titulos{
-        flex-direction: column;
-     }
+@mixin mobile {
+    @media screen and (max-width: 678px){
+        @content;
+    }
 }

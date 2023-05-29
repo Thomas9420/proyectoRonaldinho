@@ -10,39 +10,51 @@
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="../css/bootstrap.min.css">
          <link rel="shortcut icon" href="../imagenes/ronal-logo.jpg">
          <link rel="stylesheet" href="../css/app.css">
          <title>Br in the map</title>
 </head>
 <body>
   <header>
-    <img class="logo" src="../imagenes/icono-brasil.png" height="50" width="70" alt="Logo">
-    <nav>
-      <ul id="subir">
-        <li>
-          <a href="../index.html">Inicio</a>
-        </li>
-        <li>
-          <a href="./carrera.html">Carrera</a>
-        </li>
-        <li>
-          <a href="./mejores-jugadas.html">Mejores Jugadas</a>
-        </li>
-        <li>
-          <a href="./titulos.html">Titulos</a>
-        </li>
-        <li>
-          <a href="./contacto.html">Contacto</a>
-        </li>
-      </ul>
-    </nav>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+        <img src="../imagenes/icono-brasil.png" height="50" width="70" alt="Logo">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./contacto.html">CONTACTO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto" id="subir">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./carrera.html">Carrera</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./mejores-jugadas.html">Mejores Jugadas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./titulos.html">Titulos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</ul>
+</div>
   </header>
    <main id="main-bg">
     <section>
       <div>
-         <h1>BIOGRAFIA DE RONALDINHO "GAUCHO"</h1>
+         <h1>Nuestra comunidad</h1>
       </div>
-         <p class="subtitulo"><strong>Fútbol amor y romance</strong></p>
+         <p class="subtitulo"><strong>Te interesa unirte  a nuestra comunidad?</strong></p>
       </section>
         <p class="subscribir-contacto"><strong>Queres relacionarte con una comunidad amante del futbol y jogo bonito? dejanos tu mail aca para recibir nuevas noticias.<br>Y comenta que te parecio el articulo!</strong></p>
         <form method="post" class="form-contacto">
@@ -54,7 +66,7 @@
         </form>
         <form class="form-contacto">
             <fieldset>
-                <textarea name="comentario" id="textarea" cols="20" rows="3" placeholder="Escribi aca que te parecio!"></textarea>
+                <textarea name="comentario" id="textarea" cols="35" rows="5" placeholder="Escribi aca que te parecio!"></textarea>
                 <div class="form-contacto">
                 <input type="submit" name="Enviar" value="Enviar mensaje" class="enviar-resetear">
                 <input type="reset" name="Resetear"value="Resetear formulario" class="enviar-resetear">
@@ -78,5 +90,6 @@
         </span>
       </p>
    </footer>
+   <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

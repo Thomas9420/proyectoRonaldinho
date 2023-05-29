@@ -1,8 +1,3 @@
-@media (max-width: 700px) {
-  .copas-titulos {
-    flex-direction: column;
-  }
-}
 h1 {
   font-size: 34px;
 }
@@ -65,10 +60,6 @@ header nav ul li {
 header nav ul li a {
   font-size: 23px;
   text-decoration: none;
-  color: wheat;
-}
-header nav ul li a:hover {
-  color: black;
 }
 
 main {
@@ -109,6 +100,43 @@ main section {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.subtitulo-carrera {
+  text-align: center;
+}
+
+.subscribir-contacto {
+  text-align: center;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#discord {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.copas-titulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "montserrat";
+}
+@media screen and (max-width: 678px) {
+  .copas-titulos {
+    flex-direction: column;
+  }
+}
+
+.table {
+  font-family: "montserrat";
 }
 
 /*# sourceMappingURL=app.css.map */
