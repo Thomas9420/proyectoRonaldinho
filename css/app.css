@@ -104,6 +104,7 @@ main section {
 
 .subtitulo-carrera {
   text-align: center;
+  justify-content: center;
 }
 
 .subscribir-contacto {
