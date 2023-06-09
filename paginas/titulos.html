@@ -5,12 +5,11 @@
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-         <meta name="description" content="biografia de ronaldinho, desde sus comienzos como futbolista profesional, hasta su final">
+         <meta name="description" content="cada uno de los titulos mas importantes ganados en la carrera profesional de ronaldinho">
          <meta name="keywords" content="Fútbol, futbolista, amor, deporte, brasil, historia, brazil, belleza, biografia, motivacional, mundo, jogo bonito">
          <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto&display=swap" rel="stylesheet">
-         <link rel="preconnect" href="https://fonts.googleapis.com">
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
          <link rel="stylesheet" href="../css/bootstrap.min.css">
          <link rel="shortcut icon" href="../imagenes/ronal-logo.jpg">
          <link rel="stylesheet" href="../css/app.css">
@@ -51,42 +50,47 @@
 </div>
   </header>
    <main id="main-bg">
-    <section>
+    <section class="section-titulos">
       <h1>Titulos individuales y colectivos</h1>
       <h2><strong>Estos son algunos</strong></h2>
       </section>
+      <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+
       <div class="copas-titulos">
       <div class="card" style="width: 18rem;">
-          <img src="../imagenes/the-best-ronal.jpg" class="card-img-top" alt="...">
+          <img src="../imagenes/the-best-ronal.jpg" class="card-img-top" alt="Premio the best">
           <div class="card-body">
             <p class="card-text">2x años seguidos ganador al premio the best. <br>2004 Barcelona FC <br>2005 Barcelona FC</p>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
-          <img src="../imagenes/balon-de-oro.jpg" class="card-img-top" alt="...">
+          <img src="../imagenes/balon-de-oro.jpg" class="card-img-top" alt="Premio balon de oro">
           <div class="card-body">
             <p class="card-text">Ganador al balon de oro. <br> 2005 Barcelona FC</p>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
-          <img src="../imagenes/jugador-uefa.jpg" class="card-img-top" alt="...">
+          <img src="../imagenes/jugador-uefa.jpg" class="card-img-top" alt="premio jugador uefa">
           <div class="card-body">
             <p class="card-text">Ganador mejor jugador UEFA. <br> 2006 Barcelona FC</p>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
-          <img src="../imagenes/copa-del-mundo.jpg" class="card-img-top" alt="...">
+          <img src="../imagenes/copa-del-mundo.jpg" class="card-img-top" alt="ganador copa del mundo">
           <div class="card-body">
             <p class="card-text">Campeón del mundo. <br> 2002 Brasil</p>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
-          <img src="../imagenes/copa-america.jpg" class="card-img-top" alt="...">
+          <img src="../imagenes/copa-america.jpg" class="card-img-top" alt="ganador copa america">
           <div class="card-body">
             <p class="card-text">Campeón copa America. <br> 1999 Brasi</p>
           </div>
         </div>
       </div>
+    </div>
     <table class="table">
         <thead>
           <tr>
@@ -162,6 +166,10 @@
         </span>
       </p>
    </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

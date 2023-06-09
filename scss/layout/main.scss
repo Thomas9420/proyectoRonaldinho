@@ -1,8 +1,53 @@
 main{
-    background-color:$color-quinario;
-    section{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(241,212,0,1) 38%);
+    .section-inicio{
         font-family: $letra-secundaria;
         background-image: url(../imagenes/banner.jpg);
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include flexbox(column, center, center);
+        color: $color-cuaternario;
+    }
+    .section-carrera{
+        font-family: $letra-secundaria;
+        background-image: url(../imagenes/ronaldinho-con-bandera.jpg);
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include flexbox(column, center, center);
+        color: $color-cuaternario;
+    }
+    .section-jugadas{
+        font-family: $letra-secundaria;
+        background-image: url(../imagenes/ronaldinho-jugadas.jpg);
+        background-position: top;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include flexbox(column, center, center);
+        color: $color-cuaternario;
+    }
+    .section-titulos{
+        font-family: $letra-secundaria;
+        background-image: url(../imagenes/ronaldinho-titulos.jpg);
+        background-position: top;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include flexbox(column, center, center);
+        color: $color-cuaternario;
+    }
+    .section-contacto{
+        font-family: $letra-secundaria;
+        background-image: url(../imagenes/ronaldinho-contacto.jpg);
         background-position: center;
         width: 100%;
         height: 100%;
